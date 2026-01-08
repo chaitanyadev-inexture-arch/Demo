@@ -1,43 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex frid</title>
+    <title>Task 3</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 </head>
+
 <body>
-    <div class="navbar">
-        <div class="part1">LOGO</div>
-        <div class="part2">
-            <header>
-                <nav class="navs">
-                    <a href="" class="demo">Home</a>
-                    <a href="" class="demo">About</a>
-                    <a href="" class="demo">Services</a>
-                    <button class="button" 
-                            data-testid="input-Login/Sing up">Login/Sign up</button>
-                </nav>
-                
-            </header>
+    <header class="header">
+        <div class="container">
+            <div class="header-left">
+                <h1>LOGO</h1>
+            </div>
+            <nav class="header-right">
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href="" class="active">Business Consultant </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">Contact Us</a>
+
+                    </li>
+                    <a href="" class="login-btn">Login / Sign up</a>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+<!-- page 1 -->
 
     <main>
-        <section>
-            <div class="page1">
-                <div class="leftside">
-                    <h1></h1>
-                    
+        <section class="section-one">
+            <div class="container">
+                <div class="banner-left">
+                    <h2>Hire Top Independent <span>Business Consultants</span></h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the .</p>
+                    <div class="btn-group">
+                        <button class="common-button">Get started</button>
+                        <button class="video-play-button">
+                            <span><i class="fa-solid fa-play"></i></span>
+                            Watch Video
+                        </button>
+                    </div>
                 </div>
-                <div class="rightside">
-                    <img src="image/photo-1761839258075-585182da7521.avif" alt="">
+                <div class="banner-right">
+                    <img src="./image/istockphoto-2196870531-612x612.webp" alt=banner>
                 </div>
             </div>
         </section>
-        
+
+<!-- page 2 -->
+
+        <section class="section-two">
+            <div class="container">
+                <div class="section-two-left">
+                    <img src="./image/girl.png" alt="business_consulting">
+                </div>
+                <div class="section-two-right">
+                    <h2>Business Consulting for <span>SMB</span> Made Easy</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+                    <p style="margin-top: 20px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic typesetting, remaining
+                        essentially unchanged.</p>
+                </div>
+            </div>
+        </section>
+
+<!-- page 3 -->
+
+        <section class="section-three">
+            <div class="container">
+                <h2>What Sets <span>Consultant Vue</span> Apart</h2>
+                <div class="consultant-vue-wrapper">
+                    <div>
+                        <div class="img-wrapper">
+                            <img src="./image/Group.svg" alt="expertise">
+                        </div>
+
+                        <h3>Business Consulting Expertise</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div>
+                        <div class="img-wrapper">
+                            <img src="./image/Group (1).svg" alt="100% free">
+                        </div>
+                        <h3>Business Consulting Expertise</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div>
+                        <div class="img-wrapper">
+                            <img src="./image/Group (2).svg" alt="streamlined">
+                        </div>
+                        <h3>Business Consulting Expertise</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- page 4 -->
+
+       <section class="section-four">
+            <div class="container">
+                <div class="section-four-title">
+                    <h2>Some of Our Business <span>Consultants</span></h2>
+                    <button class="common-button">View All</button>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./image/Rectangle 1.png" alt="profile-1">
+                        <div class="card-content">
+                            <span>
+                                <h4>Amanda Ward</h4>
+                                <h5>$100 / Hr</h5>
+                            </span>
+                            <h5>Marketing Consultant (10 yrs)</h5>
+                            <ul>
+                                <li>PHP</li>
+                                <li>Requirement Gathering</li>
+                                <li>Wordpress Devloper</li>
+                                <li>Design</li>
+                                <li>+3</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipise consecte. Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./image/Rectangle 2.png" alt="profile-1">
+                        <div class="card-content">
+                            <span>
+                                <h4>Amanda Ward</h4>
+                                <h5>$100 / Hr</h5>
+                            </span>
+                            <h5>Marketing Consultant (10 yrs)</h5>
+                            <ul>
+                                <li>PHP</li>
+                                <li>Requirement Gathering</li>
+                                <li>Wordpress Devloper</li>
+                                <li>Design</li>
+                                <li>+3</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipise consecte. Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./image/Rectangle 3.png" alt="profile-1">
+                        <div class="card-content">
+                            <span>
+                                <h4>Amanda Ward</h4>
+                                <h5>$100 / Hr</h5>
+                            </span>
+                            <h5>Marketing Consultant (10 yrs)</h5>
+                            <ul>
+                                <li>PHP</li>
+                                <li>Requirement Gathering</li>
+                                <li>Wordpress Devloper</li>
+                                <li>Design</li>
+                                <li>+3</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipise consecte. Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./image/Rectangle 4.png" alt="profile-1">
+                        <div class="card-content">
+                            <span>
+                                <h4>Amanda Ward</h4>
+                                <h5>$100 / Hr</h5>
+                            </span>
+                            <h5>Marketing Consultant (10 yrs)</h5>
+                            <ul>
+                                <li>PHP</li>
+                                <li>Requirement Gathering</li>
+                                <li>Wordpress Devloper</li>
+                                <li>Design</li>
+                                <li>+3</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipise consecte. Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./image/Rectangle 5.png" alt="profile-1">
+                        <div class="card-content">
+                            <span>
+                                <h4>Amanda Ward</h4>
+                                <h5>$100 / Hr</h5>
+                            </span>
+                            <h5>Marketing Consultant (10 yrs)</h5>
+                            <ul>
+                                <li>PHP</li>
+                                <li>Requirement Gathering</li>
+                                <li>Wordpress Devloper</li>
+                                <li>Design</li>
+                                <li>+3</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipise consecte. Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./image/Rectangle 6.png" alt="profile-1">
+                        <div class="card-content">
+                            <span>
+                                <h4>Amanda Ward</h4>
+                                <h5>$100 / Hr</h5>
+                            </span>
+                            <h5>Marketing Consultant (10 yrs)</h5>
+                            <ul>
+                                <li>PHP</li>
+                                <li>Requirement Gathering</li>
+                                <li>Wordpress Devloper</li>
+                                <li>Design</li>
+                                <li>+3</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipise consecte. Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </section>
+
+<!-- page 5 -->
+
+
+        <section class="section-five">
+            <div class="container">
+                <div class="powerup-left">
+                    <img src="./image/pageing5.png" alt="powerup-image">
+                </div>
+                <div class="powerup-right">
+                    <h2>Power Up With a Consultant Vue <span>Business Consultant</span></h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <button class="button" style="background-color: #0D42C9; height:50px; border-radius: 6px; color: white; font-weight: 700;">Connect Business Consultant</button>
+                </div>
+            </div>
+        </section>
+
+<!-- page 6 -->
+
+
+        <section class="section-six">
+            <div class="container">
+                <div class="review-card-wrapper">
+                    <div class="review-card">
+                        <i class="fa-solid fa-quote-left"></i> 
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. </p>
+                        <div class="review-profile">
+                            <img src="./image/Ellipse 21.png" alt="review-1">
+                            <span>
+                                <h4>Maria Jannat</h4>
+                                <h5>Content Writer</h5>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <i class="fa-solid fa-quote-left"></i>                        
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. </p>
+                        <div class="review-profile">
+                            <img src="./image/Ellipse 22.png" alt="review-1">
+                            <span>
+                                <h4>Maria Jannat</h4>
+                                <h5>Content Writer</h5>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <i class="fa-solid fa-quote-left"></i>    
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. </p>
+                        <div class="review-profile">
+                            <img src="./image/Ellipse 21.png" alt="review-1">
+                            <span>
+                                <h4>Maria Jannat</h4>
+                                <h5>Content Writer</h5>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
-        
+
+
+<!-- page 7 -->
+
     
+        <section class="section-seven">
+            <div class="container">
+                <h2>Check Out Recent <span>Review</span></h2>
+                <div class="price-card-wrapper">
+                    
+                    <div class="price-card1">
+                        <h6 class="demo">Basic</h6>
+                        <h3 class="demo2 ">$29</h3>
+                        <p class="purchase-type">One time purchase</p>
+                        <p class="demo3">Lorem ipsum dolor sit amet, con sectetur adipiscing elit. The vestibul um sit turpis lectus
+                            felis faucibus. Lorem ipsum at dolor sit amet, cosectetur.</p>
+                        <button class="common-button" style="width: 250px;">Get started with free trial</button>
+                    </div>
+                    <div class="price-card2">
+                        <h6 class="demo">Standard</h6>
+                        <h3 class="demo2">$49</h3>
+                        <p class="purchase-type">One time purchase</p>
+                        <p class="demo3">Lorem ipsum dolor sit amet, con sectetur adipiscing elit. The vestibul um sit turpis lectus
+                            felis faucibus. Lorem ipsum at dolor sit amet, cosectetur.</p>
+                        <button class="common-button" style="width: 250px;">Get started with free trial</button>
+                    </div>
+                    <div class="price-card3">
+                        <h6 class="demo">Premium</h6>
+                        <h3 class="demo2 ">$99</h3>
+                        <p class="purchase-type">One time purchase</p>
+                        <p class="demo3">Lorem ipsum dolor sit amet, con sectetur adipiscing elit. The vestibul um sit turpis lectus
+                            felis faucibus. Lorem ipsum at dolor sit amet, cosectetur.</p>
+                        <button class="common-button" style="width: 250px;">Get started with free trial</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+<!-- footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <h2>LOGO</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since.</p>
+            </div>
+            <div>
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="">For Companies</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Signup</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Other Links</h4>
+                <ul>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Disclaimer</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h4>Contact Information</h4>
+                <p>Call: 1-800-371-1534</p>
+                <p>Email: info@test.com</p>
+                <span class="icon-group">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </span>
+            </div>
+        </div>
+        <h3>&copy; 2026  TestFigma. All rights reserved.</h3>
+    </footer>
 </body>
-</html>
