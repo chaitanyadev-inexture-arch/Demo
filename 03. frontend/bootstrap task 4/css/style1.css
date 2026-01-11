@@ -1,0 +1,129 @@
+.container
+{
+    width: 1320px;
+}
+
+
+:root {
+    --gradient: linear-gradient(#FF512F, #DD2476);
+    --heading-size: clamp(2rem, 2.5vw, 3.5rem);
+}
+
+/* section1 */
+
+.navbar
+{
+    height: 82px;
+}
+
+.navbar-nav {
+    display: flex;      /* make the <ul> a flex container */
+    gap: 1.5rem;        /* space between links */
+  }
+
+
+  .navbar-nav .nav-link:hover , .navbar-nav .nav-link.active  {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+
+  .btn-primary {
+    background: var(--gradient);
+    color: #fff ;
+
+  }
+  
+  .btn-secondary {
+    position: relative;
+    background: transparent;
+  
+    border: 2px solid transparent;
+    border-radius: 6px;
+    border-image: var(--gradient) 1;
+  
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    height: 40px;
+    padding: 0 22px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+
+ .sec1
+{
+    background-image: url('../images/sec3.jpeg');
+    height: 540px;
+}
+
+
+
+/* footer */
+
+
+.cta-box {
+    background-image: url("../images/footer-img.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    border-radius: 16px;
+    padding: 40px 50px;
+    min-height: 210px;
+  
+    color: #fff;
+  }
+  
+
+  /* text */
+
+  .cta-text {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 70%;
+  }
+
+  
+  /* button */
+
+
+
+  .cta-btn {
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  
+  
+  .horizontal-line
+  {
+    border: none;
+    height: 2px;
+     background: var(--gradient);
+  }
+
+  .container .mycard1 ,  .container .mycard3
+  {
+    background-color: #F9FAF9;
+    height: 632px;
+   padding: 42px;
+  }
+
+  .container .mycard2
+  {
+    height: 632px;
+    background: rgb(245, 221, 229);
+    padding: 42px;
+  }
+
+  .mybtn
+  {
+    margin-top: auto;   
+    padding-top: 32px;
+  }
